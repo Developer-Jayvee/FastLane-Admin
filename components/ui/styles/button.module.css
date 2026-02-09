@@ -1,0 +1,49 @@
+
+.btns {
+  align-items: center !important;
+  background-color: #fff !important;
+  border: 2px solid #000 !important;
+  box-sizing: border-box !important;
+  color: #000 !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  fill: #000 !important;
+  font-family: Inter,sans-serif !important;
+  font-size: 16p !important;
+  font-weight: 600 !important;
+  height: 40px !important;
+  justify-content: center !important;
+  letter-spacing: -.8px !important;
+  line-height: 24px !important;
+  min-width: 140px !important;
+  outline: 0 !important;
+  padding: 0 5px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  transition: all .3s !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+}
+
+.btns:focus {
+  color: #171e29 !important;
+}
+
+.btns:hover {
+  border-color: #06f !important;
+  color: #06f !important;
+  fill: #06f !important;
+}
+
+.btns:active {
+  border-color: #06f;
+  color: #06f !important;
+  fill: #06f !important;
+}
+
+@media (min-width: 768px) {
+  .btns {
+    min-width: 100px !important;
+  }
+}

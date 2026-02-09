@@ -1,0 +1,43 @@
+
+.card{
+    color:red;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.card img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.imageContainer{
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.116);
+    position: relative;
+    border-radius: 10px;
+}
+.imageContainer svg{
+    position: absolute;
+    top: 5px;
+    right:5px;
+    cursor: pointer;
+    color:black;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(auto ,300px));
+    gap:20px;
+}
+.cardDetails{
+    display:grid;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.cardDetails > :nth-child(2),
+.cardDetails > :nth-child(4)
+{
+    text-align: right;
+}
+.cardDetails svg{
+    display: inline;
+}

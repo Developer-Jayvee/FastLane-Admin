@@ -1,0 +1,39 @@
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 10px; 
+    border:2px solid white;
+}
+.userActions{
+    display: flex;
+    align-items: center;
+}
+.userActions > div , 
+.userActions > button,
+.userActions > p
+{
+    display: inline;
+    margin: 0 10px;
+}
+.userActions > button{
+     background-color: rgba(0, 255, 255, 0.116);
+     border-radius: 50%;
+     padding:5px;
+     border: 1px solid rgba(0, 255, 255, 0.116);
+}
+.userImage{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+      border: 1px solid rgba(0, 255, 255, 0.116);
+}
+.userImage img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    
+}

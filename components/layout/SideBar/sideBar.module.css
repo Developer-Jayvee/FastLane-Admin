@@ -1,0 +1,36 @@
+
+.sideBar{
+   display: flex;
+   flex-direction: column;
+   padding: 10px 0; 
+}
+
+.sideBar > div:nth-child(1){
+    flex-basis: 60px;
+    vertical-align: middle;
+    line-height: .5in;
+    text-align: center;
+}
+.sideBar > div:nth-child(2){
+    flex-grow: 1;
+}
+
+.navMenu ul li ,
+.userMenu ul li
+{
+    display: block;
+    width: 100%;
+    padding:5px 10px;
+    list-style: none;
+}
+.navMenu li:hover,
+.userMenu li:hover
+{
+    cursor: pointer;
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.navMenu li > a {
+    display: block;
+}

@@ -1,0 +1,22 @@
+
+.containerGrid{
+    display: grid;
+    grid-template-columns: repeat(4 , minmax(auto , 1fr));
+    grid-template-rows: repeat(4 , minmax(auto , 1fr));
+    gap:20px;
+    height: 100%;
+    width: 100%;
+}
+.containerGrid > div{
+    padding:5px;
+    border: 2px solid black;
+}
+.containerGrid > div:nth-child(1){
+    grid-area: 1 / 1 / span 4 / span 3;
+}
+.containerGrid > div:nth-child(2){
+    grid-area: 1 / 4 / span 2 / span 1;
+}
+.containerGrid > div:nth-child(3){
+    grid-area: 3 / 4 / span 2 / span 1;
+}

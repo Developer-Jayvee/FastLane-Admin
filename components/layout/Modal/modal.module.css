@@ -1,0 +1,28 @@
+.blackBg{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+    background-color: black;
+    opacity: .7;
+}
+.modal{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    width:300px;
+    background-color: white;
+    z-index: 99;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.closeBtn{
+    position: sticky;
+    text-align: right;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
