@@ -123,3 +123,9 @@ export const NAV_LINKS = [
     },
 ]
 
+export const CUSTOMER_DATA_FORMAT = {
+    name:'',
+    address:'',
+    status:1
+}
+
